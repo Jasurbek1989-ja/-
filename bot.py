@@ -7,7 +7,7 @@ ADMIN_CHAT_ID = 634444923  # <-- buni o'zingiznikiga almashtiring
 # /start buyrug'iga javob
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Assalomu alaykum!\nIltimos, murojaatingizni matn shaklida yuboring."
+        "Ассалому алайкум!\nМурожаатингизни матн шаклида юборинг!\nМурожаатимда ёлғон кўрсатма бермаcлик, акс ҳолда Ўзбекистон Республикаси Жиноят Кодексининг 237-238-моддалари билан жиноий жавобгарликка тортилишим ҳақида огоҳлантирилдим."
     )
 
 # Murojaatni qabul qilish va adminga yuborish
@@ -23,7 +23,7 @@ async def receive_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
     # Foydalanuvchiga tasdiq
-    await update.message.reply_text("Murojaatingiz qabul qilindi. Rahmat!")
+    await update.message.reply_text("Мурожаатингиз қабул қилинди!")
 
 # Asosiy funksiyani ishga tushurish
 if __name__ == '__main__':
